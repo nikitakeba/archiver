@@ -1,0 +1,19 @@
+add_executable(archiver
+        main.cpp
+        Huffman/trie.cpp
+        Huffman/trie.h
+        Huffman/huffman.cpp
+        Huffman/huffman.h
+        Huffman/Node.cpp
+        Huffman/Node.h
+        encode.cpp
+        encode.h
+        io/Reader.cpp
+        io/Reader.h
+        io/Writer.cpp
+        io/Writer.h
+        Parser.cpp
+        Parser.h
+        consts.h
+        decode.cpp
+        decode.h io/io_consts.h Huffman/minheap.cpp Huffman/minheap.h)
