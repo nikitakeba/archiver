@@ -1,6 +1,11 @@
 #include <iostream>
-#include "Parser.h"
+
+#include "parser.h"
 
 int main(int argc, char *argv[]) {
-    Parse(argc, argv);
+    try {
+        Parse(argc, argv);
+    } catch (...) {
+        std::cout << "Error";
+    }
 }

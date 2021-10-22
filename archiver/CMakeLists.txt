@@ -1,19 +1,19 @@
 add_executable(archiver
         main.cpp
-        Huffman/trie.cpp
-        Huffman/trie.h
-        Huffman/huffman.cpp
-        Huffman/huffman.h
-        Huffman/Node.cpp
-        Huffman/Node.h
+        huffman/trie.cpp
+        huffman/trie.h
+        huffman/huffman.cpp
+        huffman/huffman.h
+        huffman/node.cpp
+        huffman/node.h
         encode.cpp
         encode.h
-        io/Reader.cpp
-        io/Reader.h
-        io/Writer.cpp
-        io/Writer.h
-        Parser.cpp
-        Parser.h
+        io/reader.cpp
+        io/reader.h
+        io/writer.cpp
+        io/writer.h
+        parser.cpp
+        parser.h
         consts.h
         decode.cpp
-        decode.h io/io_consts.h Huffman/minheap.cpp Huffman/minheap.h)
+        decode.h io/io_consts.h huffman/minheap.cpp huffman/minheap.h)
