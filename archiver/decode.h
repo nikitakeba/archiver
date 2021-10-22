@@ -1,7 +1,12 @@
-#include "io/Reader.h"
+#ifndef DECODE
+#define DECODE
+
+#include "io/reader.h"
 #include "consts.h"
-#include "Huffman/huffman.h"
+#include "huffman/huffman.h"
 
-void Decode(std::string &archive_name);
-
-uint16_t GetSymbol(Node* current_node);
+class Decoder {
+public:
+    static void Decode(std::string& archive_name);
+};
+#endif
